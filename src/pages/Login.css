@@ -1,0 +1,74 @@
+  
+  .App-logo {
+    max-height: 100%;
+    pointer-events: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+
+  ::placeholder {
+    color: antiquewhite;
+    opacity: 1; /* Firefox */
+  }
+  
+  .Login-header {
+    background-color: #713ce6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(60deg);
+    }
+  }
+  
+  .Form-label {  
+    left: 14px;  
+    display: block;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    padding: 8px;
+  }
+
+  .form-control {
+    color: antiquewhite;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .toggle-password {
+    cursor: pointer;
+  }
+  

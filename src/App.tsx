@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Navbar } from './components/Navbar'
 import { About } from './pages/About'
 import { Home } from './pages/Home'
+import { Login } from './pages/Login'
+import { Registration } from './pages/Registration'
 
 const App: React.FC = () => {
   return (
@@ -13,6 +15,8 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Registration />} />
         </Routes>
       </div>
     </BrowserRouter>
