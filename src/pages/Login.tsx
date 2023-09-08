@@ -49,8 +49,6 @@ function PasswordField() {
           //   className="form-control"
         />
         <span className="toggle-password">
-          <FaRegEyeSlash className="icon" />
-        </span>
         <FaRegEye className="icon" />
       </div>
     </div>
