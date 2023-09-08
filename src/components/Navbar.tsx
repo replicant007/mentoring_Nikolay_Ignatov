@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export const Navbar: React.FC = () => (
   <nav>
-    <div className="nav-wrapper cyan darken-1 px1">
+    <div className="nav-wrapper blue darken-1 px1">
       <img src="/logo512.png" className="App-logo" alt="logo" />
       <NavLink to="/" className="brand-logo">
         React exercise

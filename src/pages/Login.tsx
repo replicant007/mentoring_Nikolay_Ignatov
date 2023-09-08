@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { FaRegUser, FaLock, FaRegEyeSlash, FaRegEye } from 'react-icons/fa'
+import { FaRegUser, FaLock, FaRegEye } from 'react-icons/fa'
 import './Login.css'
 
 function WelcomeMessage() {
@@ -49,7 +49,8 @@ function PasswordField() {
           //   className="form-control"
         />
         <span className="toggle-password">
-        <FaRegEye className="icon" />
+          <FaRegEye className="icon" />
+        </span>
       </div>
     </div>
   )

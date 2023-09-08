@@ -6,6 +6,17 @@
     top: 0px;
     left: 0px;
   }
+
+  body {
+    background-color: rgb(31, 04, 59);
+    z-index: -100;
+    /* background: linear-gradient(to top, #1808ce, #310459); */
+  }
+
+  .about, .btn {
+    color: antiquewhite;
+    background-color: rgba(112, 68, 193, 0.641);
+  }
   
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
@@ -71,4 +82,10 @@
   .toggle-password {
     cursor: pointer;
   }
+
+  .form-required{
+    color: red;
+  }
+
+
   
